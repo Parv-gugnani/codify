@@ -1,0 +1,219 @@
+/* General Styles */
+.ant-btn-primary {
+  background-color: #124559;
+  border-color: #124559;
+  color: #ffffff;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.ant-btn-primary:hover {
+  background-color: #0e3c47;
+  border-color: #0e3c47;
+}
+
+/* Home Container */
+.home-style {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  background-color: #01161E;
+  color: #AEC3B0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navigation */
+.home-style .nav {
+  background-color: #124559;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+  border-bottom: 2px solid #0e3c47;
+}
+
+/* Flex Containers */
+.home-style .div-flex,
+.home-style .div-mx-auto,
+.home-style .div-hidden-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home-style .div {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Images */
+.home-style .img {
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.home-style .img:hover {
+  transform: scale(1.05);
+}
+
+/* Text Wrapper */
+.home-style .text-wrapper {
+  color: #AEC3B0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: -2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+/* Buttons */
+.home-style .button {
+  background-color: #EFF6E0;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #01161E;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.home-style .button:hover {
+  background-color: #d7d8d4;
+  color: #124559;
+}
+
+/* Profile Image */
+.home-style .leerob {
+  background-image: url(../static/img/leerob.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.home-style .leerob:hover {
+  transform: scale(1.1);
+}
+
+/* Layout Containers */
+.home-style .div-p,
+.home-style .main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home-style .div-hd-ec,
+.home-style .div-relative {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home-style .div-text-primary {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #0e3c47;
+  padding: 15px;
+  width: 100%;
+}
+
+/* Message List Container */
+.home-style .div-flex-margin-wrapper {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+.home-style .div-mt {
+  background-color: #01161E;
+  border: none;
+  display: flex;
+  width: 90%;
+  position: fixed;
+  bottom: 20px;
+  padding: 10px;
+}
+
+.home-style .form {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.home-style .file-list {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.home-style .input {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #AEC3B0;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #1E2A33;
+  color: #AEC3B0;
+  font-size: 14px;
+}
+
+.home-style .list-container {
+  width: 100%;
+  overflow-y: auto;
+  background-color: #1E2A33;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.home-style .list-item {
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: #124559;
+  border-radius: 8px;
+}
+
+.home-style .floating-button-container {
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+}
+
+.home-style .setting {
+  position: relative;
+}
+
+/* Select Dropdown */
+.ant-select-dropdown {
+  max-height: 120px;
+  overflow-y: auto;
+  background-color: #1E2A33;
+  color: #AEC3B0;
+}
+
+/* Config Container */
+.config-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
